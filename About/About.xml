@@ -3,7 +3,7 @@
 	<name>Multiplayer Automatic Hydroponics Patch</name>
 	<author>Keullaeseu</author>
 	<packageId>keullaeseu.mp.Poncho.AutomaticHydroponics</packageId>
-	<modVersion>1.0.0.0</modVersion>
+	<modVersion>1.0.0.1</modVersion>
 	<url>https://github.com/Keullaeseu/Multiplayer-Automatic-Hydroponics-Patch</url>
 	<description>Provides multiplayer support for the Automatic Hydroponics mod by Poncho.</description>
 
