@@ -7,9 +7,7 @@ This mod is designed to improve multiplayer synchronization when playing with th
 ## Features
 
 - Adds multiplayer compatibility for [Automatic Hydroponics](https://steamcommunity.com/sharedfiles/filedetails/?id=3528490718).
-- Syncs processor interactions (add, reorder, suspend, target counts including Do Forever, copy and paste processes).
-- Syncs pipe net interactions used by networked outputs.
-- Works standalone and alongside Multiplayer Compatibility (when both are present, processor UI is handled by Multiplayer Compatibility with missing fixes applied by this patch).
+- The mod itself needs no sync of its own (XML defs plus a render-only visual patch). Processor interactions (add, reorder, suspend, target counts including Do Forever, copy and paste processes) and pipe net interactions are synced by the required Multiplayer Vanilla Expanded Framework Patch.
 
 ## Requirements
 
@@ -19,6 +17,7 @@ This mod is designed to improve multiplayer synchronization when playing with th
   - [GitHub version](https://github.com/rwmt/Multiplayer) or [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2606448745) version
 - [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013)
 - [Automatic Hydroponics](https://steamcommunity.com/sharedfiles/filedetails/?id=3528490718)
+- [Multiplayer Vanilla Expanded Framework Patch](https://github.com/Keullaeseu/Multiplayer-Vanilla-Expanded-Framework-Patch/releases/latest)
 
 The host and every connected player must use compatible versions of all required mods.
 
@@ -34,7 +33,8 @@ Subscribe to the required mods and add them to your RimWorld mod list in the fol
 4. RimWorld Multiplayer
 5. [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013)
 6. [Automatic Hydroponics](https://steamcommunity.com/sharedfiles/filedetails/?id=3528490718)
-7. [Multiplayer Automatic Hydroponics Patch](https://github.com/Keullaeseu/Multiplayer-Automatic-Hydroponics-Patch/releases/latest)
+7. [Multiplayer Vanilla Expanded Framework Patch](https://github.com/Keullaeseu/Multiplayer-Vanilla-Expanded-Framework-Patch/releases/latest)
+8. [Multiplayer Automatic Hydroponics Patch](https://github.com/Keullaeseu/Multiplayer-Automatic-Hydroponics-Patch/releases/latest)
 
 The patch should load after both RimWorld Multiplayer and [Automatic Hydroponics](https://steamcommunity.com/sharedfiles/filedetails/?id=3528490718).
 
@@ -53,6 +53,7 @@ All players should have the following mods installed and enabled:
 - RimWorld Multiplayer
 - [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013)
 - [Automatic Hydroponics](https://steamcommunity.com/sharedfiles/filedetails/?id=3528490718)
+- [Multiplayer Vanilla Expanded Framework Patch](https://github.com/Keullaeseu/Multiplayer-Vanilla-Expanded-Framework-Patch/releases/latest)
 - [Multiplayer Automatic Hydroponics Patch](https://github.com/Keullaeseu/Multiplayer-Automatic-Hydroponics-Patch/releases/latest)
 - All required Automatic Hydroponics dependencies
 

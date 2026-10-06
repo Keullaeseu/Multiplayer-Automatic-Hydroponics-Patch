@@ -13,6 +13,7 @@
 
 	<loadAfter>
 		<li>rwmt.Multiplayer</li>
+		<li>keullaeseu.mp.OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>Poncho.AutomaticHydroponics</li>
 	</loadAfter>
 
@@ -22,6 +23,11 @@
 			<displayName>Multiplayer</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2606448745</steamWorkshopUrl>
 			<downloadUrl>https://github.com/rwmt/Multiplayer/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>keullaeseu.mp.OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Multiplayer Vanilla Expanded Framework Patch</displayName>
+			<downloadUrl>https://github.com/Keullaeseu/Multiplayer-Vanilla-Expanded-Framework-Patch/releases/latest</downloadUrl>
 		</li>
 		<li>
 			<packageId>Poncho.AutomaticHydroponics</packageId>
