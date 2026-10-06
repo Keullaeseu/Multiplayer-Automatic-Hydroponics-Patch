@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Multiplayer Automatic Hydroponics Patch</name>
+	<author>Keullaeseu</author>
+	<packageId>keullaeseu.mp.Poncho.AutomaticHydroponics</packageId>
+	<modVersion>1.0.0.0</modVersion>
+	<url>https://github.com/Keullaeseu/Multiplayer-Automatic-Hydroponics-Patch</url>
+	<description>Provides multiplayer support for the Automatic Hydroponics mod by Poncho.</description>
+
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+
+	<loadAfter>
+		<li>rwmt.Multiplayer</li>
+		<li>Poncho.AutomaticHydroponics</li>
+	</loadAfter>
+
+	<modDependencies>
+		<li>
+			<packageId>rwmt.Multiplayer</packageId>
+			<displayName>Multiplayer</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2606448745</steamWorkshopUrl>
+			<downloadUrl>https://github.com/rwmt/Multiplayer/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>Poncho.AutomaticHydroponics</packageId>
+			<displayName>Automatic Hydroponics</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3528490718</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>
